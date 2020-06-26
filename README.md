@@ -21,7 +21,7 @@ https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP253798
 
 
 ## Generated Spike-In Reads
-Pre-generated data is provided in the `data` directory and includes SARS-CoV-2 reads from host `NT04` with `NA12878` human host reads.  Aligment were filtered from the `NA12878` BAM file for mapping quality > 30.  Aligments were then name sorted using `samtools` and limited to the first 5000 read pairs.  The alignments were converted to FASTQ files using `samtools` and added to the SARS-CoV-2 reads using the `spikein_reaeds.py` script.
+Pre-generated data is provided in the `data` directory and includes SARS-CoV-2 reads from host `NT04` with `NA12878` human host reads.  Aligment were filtered from the `NA12878` BAM file for mapping quality > 30.  Aligments were then name sorted using `samtools` and limited to the first 5000 read pairs.  The alignments were converted to FASTQ files using `samtools` and added to the SARS-CoV-2 reads using the `spikein_reads.py` script.
 
 
 ## References
